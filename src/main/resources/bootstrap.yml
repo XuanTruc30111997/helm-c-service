@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: c-service
+  cloud:
+    kubernetes:
+      config:
+        enabled: true

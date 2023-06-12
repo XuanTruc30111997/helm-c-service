@@ -1,0 +1,17 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /c-path
+
+spring:
+  application:
+    name: c-service
+
+management:
+  endpoint:
+    health:
+      enabled: true
+    info:
+      enabled: true
+    restart:
+      enabled: true
